@@ -16,10 +16,10 @@ class TestViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func tt(_ sender: Any) {
-        addDataToCoreData()
-        fetchAndPrintData()
-    }
+//    @IBAction func tt(_ sender: Any) {
+//        addDataToCoreData()
+//        fetchAndPrintData()
+//    }
     func addDataToCoreData() {
           
         // Dữ liệu cần thêm vào Core Data

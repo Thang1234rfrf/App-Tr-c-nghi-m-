@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2026" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="DeThiAnh" representedClassName="DeThiAnh" syncable="YES">
+        <attribute name="a" optional="YES" attributeType="String"/>
+        <attribute name="b" optional="YES" attributeType="String"/>
+        <attribute name="c" optional="YES" attributeType="String"/>
+        <attribute name="cau" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="d" optional="YES" attributeType="String"/>
+        <attribute name="dapAnChon" optional="YES" attributeType="String"/>
+        <attribute name="dapAnDung" optional="YES" attributeType="String"/>
+        <attribute name="loiGiai" optional="YES" attributeType="String"/>
+        <attribute name="maDe" optional="YES" attributeType="String"/>
+        <attribute name="noiDungCauHoi" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DeThiDia" representedClassName="DeThiDia" syncable="YES" codeGenerationType="class">
+        <attribute name="a" optional="YES" attributeType="String"/>
+        <attribute name="b" optional="YES" attributeType="String"/>
+        <attribute name="c" optional="YES" attributeType="String"/>
+        <attribute name="cau" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="d" optional="YES" attributeType="String"/>
+        <attribute name="dapAnchon" optional="YES" attributeType="String"/>
+        <attribute name="dapAnDung" optional="YES" attributeType="String"/>
+        <attribute name="loiGiai" optional="YES" attributeType="String"/>
+        <attribute name="maDe" optional="YES" attributeType="String"/>
+        <attribute name="noiDungCauHoi" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DeThiGdcd" representedClassName="DeThiGdcd" syncable="YES">
+        <attribute name="a" optional="YES" attributeType="String"/>
+        <attribute name="b" optional="YES" attributeType="String"/>
+        <attribute name="c" optional="YES" attributeType="String"/>
+        <attribute name="cau" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="d" optional="YES" attributeType="String"/>
+        <attribute name="dapAnChon" optional="YES" attributeType="String"/>
+        <attribute name="dapAnDung" optional="YES" attributeType="String"/>
+        <attribute name="loiGiai" optional="YES" attributeType="String"/>
+        <attribute name="maDe" optional="YES" attributeType="String"/>
+        <attribute name="noiDungCauHoi" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DeThiHoa" representedClassName="DeThiHoa" syncable="YES" codeGenerationType="class">
+        <attribute name="a" optional="YES" attributeType="String"/>
+        <attribute name="b" optional="YES" attributeType="String"/>
+        <attribute name="c" optional="YES" attributeType="String"/>
+        <attribute name="cau" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="d" optional="YES" attributeType="String"/>
+        <attribute name="dapAnChon" optional="YES" attributeType="String"/>
+        <attribute name="dapAnDung" optional="YES" attributeType="String"/>
+        <attribute name="loiGiai" optional="YES" attributeType="String"/>
+        <attribute name="maDe" optional="YES" attributeType="String"/>
+        <attribute name="noiDungCauHoi" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DeThiLy" representedClassName="DeThiLy" syncable="YES" codeGenerationType="class">
+        <attribute name="a" optional="YES" attributeType="String"/>
+        <attribute name="b" optional="YES" attributeType="String"/>
+        <attribute name="c" optional="YES" attributeType="String"/>
+        <attribute name="cau" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="d" optional="YES" attributeType="String"/>
+        <attribute name="dapAnChon" optional="YES" attributeType="String"/>
+        <attribute name="dapAnDung" optional="YES" attributeType="String"/>
+        <attribute name="loiGiai" optional="YES" attributeType="String"/>
+        <attribute name="maDe" optional="YES" attributeType="String"/>
+        <attribute name="noiDungCauHoi" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DeThiSinh" representedClassName="DeThiSinh" syncable="YES" codeGenerationType="class">
+        <attribute name="a" optional="YES" attributeType="String"/>
+        <attribute name="b" optional="YES" attributeType="String"/>
+        <attribute name="c" optional="YES" attributeType="String"/>
+        <attribute name="cau" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="d" optional="YES" attributeType="String"/>
+        <attribute name="dapAnChon" optional="YES" attributeType="String"/>
+        <attribute name="dapAnDung" optional="YES" attributeType="String"/>
+        <attribute name="loiGiai" optional="YES" attributeType="String"/>
+        <attribute name="maDe" optional="YES" attributeType="String"/>
+        <attribute name="noiDungCauHoi" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DeThiSu" representedClassName="DeThiSu" syncable="YES" codeGenerationType="class">
+        <attribute name="a" optional="YES" attributeType="String"/>
+        <attribute name="b" optional="YES" attributeType="String"/>
+        <attribute name="c" optional="YES" attributeType="String"/>
+        <attribute name="cau" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="d" optional="YES" attributeType="String"/>
+        <attribute name="dapAnChon" optional="YES" attributeType="String"/>
+        <attribute name="dapAnDung" optional="YES" attributeType="String"/>
+        <attribute name="loiGiai" optional="YES" attributeType="String"/>
+        <attribute name="maDe" optional="YES" attributeType="String"/>
+        <attribute name="noiDungCauHoi" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DeThiToan" representedClassName="DeThiToan" syncable="YES" codeGenerationType="class">
+        <attribute name="a" optional="YES" attributeType="String"/>
+        <attribute name="b" optional="YES" attributeType="String"/>
+        <attribute name="c" optional="YES" attributeType="String"/>
+        <attribute name="cau" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="d" optional="YES" attributeType="String"/>
+        <attribute name="dapAnChon" optional="YES" attributeType="String"/>
+        <attribute name="dapAnDung" optional="YES" attributeType="String"/>
+        <attribute name="loiGiai" optional="YES" attributeType="String"/>
+        <attribute name="maDe" optional="YES" attributeType="String"/>
+        <attribute name="noiDungCauHoi" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="DeThiAnh" positionX="-320.8203125" positionY="45.1796875" width="128" height="193"/>
+        <element name="DeThiDia" positionX="-54" positionY="63" width="128" height="193"/>
+        <element name="DeThiGdcd" positionX="-36" positionY="72" width="128" height="193"/>
+        <element name="DeThiHoa" positionX="-18" positionY="81" width="128" height="193"/>
+        <element name="DeThiLy" positionX="0" positionY="90" width="128" height="193"/>
+        <element name="DeThiSinh" positionX="18" positionY="99" width="128" height="193"/>
+        <element name="DeThiSu" positionX="36" positionY="108" width="128" height="193"/>
+        <element name="DeThiToan" positionX="-178.1640625" positionY="-110.234375" width="128" height="193"/>
+    </elements>
+</model>

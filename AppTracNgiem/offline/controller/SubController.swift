@@ -1,29 +1,27 @@
-//
-//  SubController.swift
-//  AppTracNgiem
-//
-//  Created by thắng on 6/25/24.
-//
-
 import UIKit
 
-class SubController: UIViewController {
-
+class TuluyenController: UIViewController {
+    var selectedMon:  String?
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        if let selectedMon = selectedMon {
+                }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func toan(_ sender: Any) {
     }
-    */
 
+    // Truyền dữ liệu qua các màn hình
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "Segue1" {
+              if let destinationVC = segue.destination as? BaiThiController {
+                destinationVC.selectedMon = "Toán"
+              }
+          } else if segue.identifier == "Segue2" {
+              if let destinationVC = segue.destination as? BaiThiController {
+                  destinationVC.selectedMon = "Lý"
+              }
+           
+       }
+   }
 }

@@ -10,11 +10,7 @@ import Foundation
 import CoreData
 
 
-extension DeThiGdcd {
-
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<DeThiGdcd> {
-        return NSFetchRequest<DeThiGdcd>(entityName: "DeThiGdcd")
-    }
+public class deThiGdcd: NSManagedObject {
 
     @NSManaged public var a: String?
     @NSManaged public var b: String?
@@ -29,6 +25,3 @@ extension DeThiGdcd {
 
 }
 
-extension DeThiGdcd : Identifiable {
-
-}
