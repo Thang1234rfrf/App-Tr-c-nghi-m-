@@ -1,6 +1,6 @@
 import UIKit
 import CoreData
-class NopbaiController: UIViewController {
+class SubmittController: UIViewController {
 
     @IBOutlet weak var correctCountLabel: UILabel!
     @IBOutlet weak var dapan: UITextView!

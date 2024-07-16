@@ -1,7 +1,7 @@
 import UIKit
 import CoreData
 
-class BaiLamController: UIViewController, NSFetchedResultsControllerDelegate {
+class AssignmenttController: UIViewController, NSFetchedResultsControllerDelegate {
     
     @IBOutlet weak var noidungcauhoi: UILabel!
     @IBOutlet weak var a: UILabel!
@@ -82,14 +82,13 @@ class BaiLamController: UIViewController, NSFetchedResultsControllerDelegate {
             print("Lỗi khi lưu dapAnChon: \(error)")
         }
         
-        // Kiểm tra nếu currentIndex vượt quá tổng số lượng dữ liệu, thiết lập lại currentIndex
+        
         if currentIndex < totalDataCount - 1 {
             currentIndex += 1
             displayData()
         } else {
             print("Bạn đã hoàn thành tất cả các câu hỏi")
-            // Bạn có thể điều hướng sang màn hình khác hoặc hiển thị thông báo hoàn thành
-            // performSegue(withIdentifier: "showResults", sender: nil) // Ví dụ điều hướng sang màn hình kết quả
+            
         }
         
         // Đặt trạng thái của UIButton được nhấn thành true

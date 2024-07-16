@@ -8,7 +8,7 @@
 import UIKit
 import CoreData
 
-class DeThiController: UITableViewController {
+class ExammController: UITableViewController {
     
     // Định nghĩa số lượng nút bạn muốn hiển thị
     let numberOfButtons = 3

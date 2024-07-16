@@ -1,6 +1,6 @@
 import UIKit
 
-class TuluyenController: UIViewController {
+class SubController: UIViewController {
     var selectedMon:  String?
     override func viewDidLoad() {
         super.viewDidLoad()
